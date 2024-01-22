@@ -10,7 +10,7 @@ public class Memo {
 
     // nullable: null 허용 여부
     // unique: 중복 허용 여부 (false 일때 중복 허용)
-    @Column(name = "username", nullable = false, unique = true)
+    @Column(name = "username", nullable = false, unique = false)
     private String username;
 
     // length: 컬럼 길이 지정
